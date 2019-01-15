@@ -41,7 +41,7 @@ In this project data is gathered from three different sources: twitter data arch
 ## Data Visualization and Findings:
 1.) A box plot was created to observe the minimum, maximum and mean ratings for all dog ratings. And it was observed that min rating was 0, max was 14 and mean was 12
 
-![Plot1](Image\plot1.png)
+![Plot1](Image/plot1.png)
 
 
 2.) After grouping the data by type of dog breed and counting the number of dog, a bar plot was created to visualize the dog breed and its corresponding count of dogs. And it was observed that golden_retrriever has highest count of dogs
