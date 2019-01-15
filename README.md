@@ -10,6 +10,7 @@ In this project data is gathered from three different sources: twitter data arch
 
 3. Data from twitter api was gathered by the access and consumer tokens and by using tweepy library.
 ## Data Access and Cleaning:
+### Tidyness issues:
 1. The data from twitter archive i.e. twitter_data dataframe's 'text' column has three variables: tweet text, rating, and image url. These three variables were separated using 're' python library and saved as individual columns: text, text_rating, image_url.
  2. The twitter_data dataframe's 'timestamp' column has two varibles:Date and time. These two variables were separated using python datetime library and saved as individual columns- Date, Time.
  3. In image_predictions.tsv file there are three columns p1, p2, p3 that represent the same meaning dog breed and can be reduced to one
